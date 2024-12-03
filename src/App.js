@@ -3,20 +3,16 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="flex App">
+      <header>
+      <h2>Welcome to Database design class</h2>
+      <h3>Temitope Oyemade</h3>
+      <a href='https://www.linkedin.com/in/temitope-oyemade-94552a179/' target='_blank' rel="noreferrer">Linkedin</a>
+      <br/>
+      <a href='https://github.com/temitopejoshua' target='_blank' rel="noreferrer">Github</a>
+      <br/>
+      <a href='https://github.com/temitopejoshua' target='_blank' rel="noreferrer">Project Report</a>
+
       </header>
     </div>
   );
