@@ -17,14 +17,14 @@ function HomePage() {
           <a href='https://github.com/temitopejoshua' target='_blank' rel="noreferrer">Project Report</a>
         </p>
         <p>
-          <a href='/db-personal-app/book-data' target='_blank' rel="noreferrer">View book data</a>
+          <a href='#/book-data' target='_blank' rel="noreferrer">View book data</a>
         </p>
         <p>
-          <a href='/db-personal-app/student-data' target='_blank' rel="noreferrer">View student data</a>
+          <a href='#/student-data' target='_blank' rel="noreferrer">View student data</a>
         </p>
       </header>
       <p>
-        <a href='/db-personal-app/book-status-analysis' target='_blank' rel="noreferrer">View book analysis</a>
+        <a href='#/book-status-analysis' target='_blank' rel="noreferrer">View book analysis</a>
       </p>
     </div>
   );
