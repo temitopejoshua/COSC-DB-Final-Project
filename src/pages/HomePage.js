@@ -4,17 +4,14 @@ function HomePage() {
   return (
     <div className="flex App">
       <header>
-        <h2>Welcome to Database design class</h2>
+        <h2>Welcome to Student Library</h2>
         <h3>Temitope Oyemade</h3>
         <a href='mailto:OYEMADET0226@students.bowiestate.edu' target='_blank' rel="noreferrer">OYEMADET0226@students.bowiestate.edu</a>
-        <p>
-          <a href='https://www.linkedin.com/in/temitope-oyemade-94552a179/' target='_blank' rel="noreferrer">Linkedin</a>
-        </p>
         <p>
           <a href='https://github.com/temitopejoshua/COSC-DB-Final-Project' target='_blank' rel="noreferrer">Github</a>
         </p>
         <p>
-          <a href='projectReport.pdf' download={true} rel="noreferrer">Project Report</a>
+          <a href='Temitope_Oyemade_Project_Whitepaper.pdf' download={true} rel="noreferrer">Project Report</a>
         </p>
         <p>
           <a href='#/book-data' target='_blank' rel="noreferrer">View book data</a>
