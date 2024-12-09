@@ -14,7 +14,7 @@ function HomePage() {
           <a href='https://github.com/temitopejoshua/COSC-DB-Final-Project' target='_blank' rel="noreferrer">Github</a>
         </p>
         <p>
-          <a href='https://github.com/temitopejoshua' target='_blank' rel="noreferrer">Project Report</a>
+          <a href='projectReport.pdf' download={true} rel="noreferrer">Project Report</a>
         </p>
         <p>
           <a href='#/book-data' target='_blank' rel="noreferrer">View book data</a>
