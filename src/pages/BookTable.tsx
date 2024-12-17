@@ -69,7 +69,7 @@ export default function StickyHeadTable() {
     <div>
       <h2>Book Data</h2>
       <TextField
-        label="Search by title"
+        label="Search by title/borrower/year"
         variant="outlined"
         value={search}
         onChange={handleSearch}

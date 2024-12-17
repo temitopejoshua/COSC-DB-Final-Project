@@ -37,7 +37,7 @@ const LoginPage: React.FC = () => {
       return;
     }
     const hashedPassword = sha3_256(formData.password);
-    if(formData.email.endsWith("@bowiestate.edu") && DEFAULT_PASSWORD.match(hashedPassword)){
+    if((formData.email.endsWith("@bowiestate.edu") || formData.email.endsWith("@students.bowiestate.edu")) && DEFAULT_PASSWORD.match(hashedPassword)){
       localStorage.setItem("isAuthenticated", "true")
         console.log('Logging in with:', formData);
         alert('Login successful!');
@@ -45,7 +45,6 @@ const LoginPage: React.FC = () => {
         return;
     }
     setError('Invalid email address or password');
-    alert('Invalid email address or password');
 
   };
 
@@ -65,7 +64,6 @@ const LoginPage: React.FC = () => {
             style={{ width: '100%', padding: '0.5rem', fontSize: '1rem' }}
             required
           />
-          <p>Hint: Default password is Welcome@123</p>
         </div>
         <div style={{ marginBottom: '1rem' }}>
           <label htmlFor="password" style={{ display: 'block', marginBottom: '0.5rem' }}>Password</label>
