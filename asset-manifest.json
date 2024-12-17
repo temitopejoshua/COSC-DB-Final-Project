@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/db-personal-app/static/css/main.f855e6bc.css",
-    "main.js": "/db-personal-app/static/js/main.b3894aff.js",
+    "main.js": "/db-personal-app/static/js/main.bc8d060d.js",
     "static/js/453.90a18bb4.chunk.js": "/db-personal-app/static/js/453.90a18bb4.chunk.js",
     "index.html": "/db-personal-app/index.html",
     "main.f855e6bc.css.map": "/db-personal-app/static/css/main.f855e6bc.css.map",
-    "main.b3894aff.js.map": "/db-personal-app/static/js/main.b3894aff.js.map",
+    "main.bc8d060d.js.map": "/db-personal-app/static/js/main.bc8d060d.js.map",
     "453.90a18bb4.chunk.js.map": "/db-personal-app/static/js/453.90a18bb4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.b3894aff.js"
+    "static/js/main.bc8d060d.js"
   ]
 }
